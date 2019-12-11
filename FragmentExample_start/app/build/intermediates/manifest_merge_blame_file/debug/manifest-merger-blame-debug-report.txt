@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.fragmentexample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:5:5-23:19
+12        android:allowBackup="true"
+12-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+13-->[com.android.support:support-compat:28.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\f14724208b5bfeeef0d6bdefe649bca7\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:12:9-15:68
+22            android:name="com.example.android.fragmentexample.SQLite"
+22-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:13:13-35
+23            android:label="@string/title_activity_sqlite"
+23-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:14:13-58
+24            android:theme="@style/AppTheme.NoActionBar" />
+24-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:15:13-56
+25        <activity android:name="com.example.android.fragmentexample.MainActivity" >
+25-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:16:9-22:20
+25-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:16:19-47
+26            <intent-filter>
+26-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:18:17-69
+27-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:20:17-77
+29-->C:\Users\PC\Downloads\android-advanced-starter-apps-master\FragmentExample_start\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <meta-data
+33-->[com.android.support:support-v4:26.0.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\39a45c25d31764bc5250ed9788485eb0\support-v4-26.0.1\AndroidManifest.xml:26:9-28:38
+34            android:name="android.support.VERSION"
+34-->[com.android.support:support-v4:26.0.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\39a45c25d31764bc5250ed9788485eb0\support-v4-26.0.1\AndroidManifest.xml:27:13-51
+35            android:value="26.0.1" />
+35-->[com.android.support:support-v4:26.0.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\39a45c25d31764bc5250ed9788485eb0\support-v4-26.0.1\AndroidManifest.xml:28:13-35
+36    </application>
+37
+38</manifest>
